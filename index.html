@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+<script src="https://kit.fontawesome.com/9673ac9fca.js" crossorigin="anonymous"></script>    <title>Desafio E-commerce</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo">E-commerce</h1>
+        <div class="cart-icon-container">
+            <i id="cart-button" class="fa-solid fa-cart-shopping cart-icon"></i>
+            <span id="cart-counter" class="cart-counter"></span>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Produtos</h2>
+        <section id="products-container" class="products-grid"></section>
+    </main>
+
+    <div id="cart-modal" class="modal-overlay">
+        <div class="cart-modal">
+            <div class="cart-header">
+                <h3>Carrinho</h3>
+                <button id="close-cart-button" class="close-button">&times;</button>
+            </div>
+            
+            <div id="cart-items-container" class="cart-items">
+                </div>
+
+            <div class="cart-summary">
+                <p>Desconto: <span id="cart-discount">R$ 0,00</span></p>
+                <h4>Total: <span id="cart-total">R$ 0,00</span></h4>
+            </div>
+
+            <button id="checkout-button" class="checkout-button">Finalizar Compra</button>
+        </div>
+    </div>
+</body>
+</html>
