@@ -49,6 +49,7 @@ header {
     font-weight: bold;
 }
 
+/* LAYOUT PRINCIPAL */
 .container {
     max-width: 1200px;
     margin: 20px auto;
