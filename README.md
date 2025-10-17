@@ -29,12 +29,5 @@ O objetivo principal era demonstrar a proficiência em JavaScript, manipulação
 * **`localStorage` API:** Persistência de Dados.
 * **Estrutura de Módulos (ES Modules):** Código organizado em `app.js` e `cart.js`.
 
-## 🚀 Como Executar
-
-A aplicação é puramente Front-end e não requer dependências de *backend* ou ferramentas de *build*.
-
-1.  **Clone o repositório** ou baixe os arquivos.
-2.  Abra o arquivo `index.html` diretamente em qualquer navegador moderno.
-
 ---
 **Obrigado pela avaliação. O código está dividido em módulos (`app.js`, `cart.js`) e as funcionalidades buscam aplicar boas práticas de desenvolvimento.**
