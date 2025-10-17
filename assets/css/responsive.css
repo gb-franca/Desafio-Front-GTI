@@ -1,0 +1,77 @@
+/* ================================================= */
+/* MEDIA QUERIES PARA RESPONSIVIDADE                 */
+/* ================================================= */
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 90%; 
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 15px; 
+    }
+    
+    .logo {
+        font-size: 1.2rem; 
+    }
+
+    .container {
+        padding: 0 10px; 
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .product-image {
+        height: 150px; 
+        line-height: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+   
+    .cart-modal {
+        width: 100%;
+        max-width: 100%;
+        height: 100%; 
+        padding: 15px;
+    }
+
+    .modal-overlay.open {
+        justify-content: flex-start; 
+    }
+    
+    .cart-item {
+        flex-wrap: wrap; 
+        padding: 10px 0;
+        align-items: flex-start; 
+    }
+    
+    .item-info {
+        width: 60%; 
+    }
+    
+    .item-total-price {
+        order: 3; 
+        width: 100%;
+        text-align: right;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    .remove-item-btn {
+        padding-top: 5px; 
+    }
+    
+    .product-card {
+        padding: 10px;
+    }
+}
