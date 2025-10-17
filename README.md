@@ -6,7 +6,7 @@ Este é um projeto de e-commerce fictício desenvolvido como desafio técnico, f
 
 Você pode visualizar a aplicação em funcionamento através do link abaixo:
 
-**[CLIQUE AQUI PARA ACESSAR O E-COMMERCE FICTÍCIO](gb-franca.github.io/Desafio-Front-GTI/)**
+**[CLIQUE AQUI PARA ACESSAR O E-COMMERCE FICTÍCIO](https://gb-franca.github.io/Desafio-Front-GTI/)**
 
 ---
 
